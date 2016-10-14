@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2016-10-12 21:46:54
+  wprkout: MyString
+  mood: MyString
+  legnth: MyString
+  location: MyString
+
+two:
+  date: 2016-10-12 21:46:54
+  wprkout: MyString
+  mood: MyString
+  legnth: MyString
+  location: MyString

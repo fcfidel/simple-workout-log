@@ -1,0 +1,23 @@
+<div class="main" id="workout">
+  <p>
+  <span class="label label-success">  <%= @workout.date %></span>
+  </p>
+  <p>
+    <%= @workout.wprkout %>
+  </p>
+  <p>
+    <%= @workout.mood %>
+  </p>
+  <p>
+    <%= @workout.legnth %>
+  </p>
+</div>
+<div id="exercises">
+  <h2 class="red-text">Exercises</h2>
+  <%= render @workout.exercises %>
+  <h3>Add an exercise</h3>
+  <%= render "exercises/form" %>
+</div>
+<%= link_to "Back", root_path %>
+<%= link_to "Edit", edit_workout_path(@workout) %>
+<%= link_to "Delete", workout_path(@workout), method: :delete, data: { confirm: "Are you sure?" } %>

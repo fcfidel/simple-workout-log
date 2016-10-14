@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html></html>
+<head>
+  <title>Workout Log Application</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <%= link_to "Workout Log", root_path, class: "navbar-brand" %>
+      </div>
+      <div class="nav navbar-nav navbar-right">
+        <li><%= link_to "New Workout", new_workout_path, class: "nav navbar-link" %><li>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <%= yield %>
+  </div>
+</body>

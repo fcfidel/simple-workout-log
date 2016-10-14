@@ -1,0 +1,9 @@
+<%= simple_form_for(@workout, html: { class: 'form-horizontal' }) do |f| %>
+  <%= f.input :date,  label: 'Date' %>
+  <%= f.input :wprkout, label: 'What area did you workout?', label_html:{class:'form-control'} %>
+  <%= f.input :mood, label: 'How were you feeling?', label_html:{class:'form-control'} %>
+  <%= f.input :location, label: 'Where did you workout?', label_html:{class:'form-control'} %>
+  <% f.input :legnth, label: 'How long was the workout?', label_html: {class:'form-control'} %>
+<br>
+  <%= f.button :submit %>
+<% end %>
