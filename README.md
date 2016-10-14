@@ -4,7 +4,7 @@
 # Simple workout log
 
 
-This is juts a plain simple workout log, I made using 
+This is just a plain simple workout log, I made using 
 
 [ Ruby on Rails ](https://github.com/rails/rails)
 
