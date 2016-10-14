@@ -1,25 +1,15 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+# Simple workout log
 
-* System dependencies
 
-* Configuration
+This is juts a plain simple workout log, I made using # Ruby on Rails [link text itself]: http://www.reddit.com
 
-* Database creation
+Gems used:
 
-* Database initialization
+1. Bootstrap-SASS
+2. simple-form
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
-# simple-workout-log
